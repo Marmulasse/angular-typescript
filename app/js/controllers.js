@@ -10,7 +10,7 @@ phonecatControllers.controller('PhoneListCtrl', ['Phone',
 		vm.orderProp = 'age';
 		vm.phones = [];
 		Phone.getAll().then(function (result) {
-			vm.phones = result.data;
+			vm.phones = result;
 		});
 	}]);
 
@@ -19,8 +19,8 @@ phonecatControllers.controller('PhoneDetailCtrl', ['$routeParams', 'Phone',
 		var vm = this;
 		vm.phone = {};
 		Phone.getPhone($routeParams.phoneId).then(function (result) {
-			vm.phone = result.data;
-			vm.mainImageUrl = result.data.images[0];
+			vm.phone = result;
+			vm.mainImageUrl = result.images[0];
 		});
 
 		vm.setImage = function(imageUrl) {

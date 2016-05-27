@@ -1,7 +1,7 @@
 node_modules
 typings
 .idea/
-app/ts/*.js
-app/ts/*.js.map
+app/ts/**/*.js
+app/ts/**/*.js.map
 test/unit-ts/*.js
 test/unit-ts/*.js.map
