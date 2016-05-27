@@ -1,0 +1,14 @@
+{
+  "name": "angular-typescript",
+  "globalDependencies": {
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738",
+    "angular-animate": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-animate.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738",
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738",
+    "angular-mocks": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-mocks.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738",
+    "angular-cookies": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-cookies.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738",
+    "angular-component-router": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-component-router.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738",
+    "angular-route": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-route.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738",
+    "angular-resource": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-resource.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738",
+    "angular-sanitize": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-sanitize.d.ts#edb64e4a35896510ce02b93c0bca5ec3878db738"
+  }
+}
